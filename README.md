@@ -56,4 +56,4 @@ O app estará disponível no seu browser pelo endereço http://localhost:5173.
 
 Você pode visualizar o layout do projeto através do link abaixo:
 
-[Layout Web](https://www.figma.com/design/HOCmxfrElzLpI75LdzFLia/Github-Explorer?node-id=0-1&t=EadkKeJt0njdHZhW-0) (Lembrando que você precisa ter uma conta no Figma).
+=> [Layout Web](https://www.figma.com/design/HOCmxfrElzLpI75LdzFLia/Github-Explorer?node-id=0-1&t=EadkKeJt0njdHZhW-0) (Lembrando que você precisa ter uma conta no Figma).
