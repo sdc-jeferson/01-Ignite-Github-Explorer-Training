@@ -1,0 +1,76 @@
+.users-already-searched-container {
+  width: 100%;
+  margin: 7.5rem 0 7.5rem 0;
+  height: 390px;
+  overflow-y: scroll;
+
+  .content-wrapper-already-searched {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+    width: 100%;
+    border-radius: 8px;
+    padding: 1.6rem;
+    background: #ffffff;
+
+    .info-user {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+
+      > div p {
+        margin-top: 0.4rem;
+      }
+    }
+
+    img {
+      width: 100%;
+      max-width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+
+    h2 {
+      font-size: 2.4rem;
+      color: var(--color-user-home);
+    }
+
+    p {
+      color: var(--description-respository);
+    }
+  }
+
+  button {
+    background: transparent;
+    border: none;
+    svg {
+      color: #c9c9d4;
+      transition: color 0.2s;
+      &:hover {
+        color: var(--green);
+      }
+    }
+  }
+}
+
+.users-already-searched-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.users-already-searched-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+
+.users-already-searched-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.users-already-searched-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
