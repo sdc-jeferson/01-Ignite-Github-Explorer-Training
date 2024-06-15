@@ -1,13 +1,10 @@
-<img alt="Ignite" src="https://i.imgur.com/eCVyxxy.png">
-<h2 align="center">
-  Ignite - Trilha ReactJS
-</h2>
-<p align="center">
-  Treinamento 01: Github Explorer
-</p>
-<img alt="Github Explorer" src="https://i.imgur.com/0IEB0g9.png">
+# Github Explorer
 
-## Sobre o projeto
+<div>
+  <img src="public/github-explorer.png"/>
+</div>
+
+## 💻 Projeto
 
 O projeto é um treinamento do Ignite - Trilha React (curso da Rocketseat). Nesse projeto foi construído uma aplicação para explorar repositórios do Github através da API Rest do próprio Github.
 
@@ -17,13 +14,46 @@ O projeto tem uma primeiro versão no treinamento, porém eu adaptei algumas fun
 - Typescript
 - ContextAPI
 
+## 🧪 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Context API](https://pt-br.reactjs.org/docs/context.html);
+- [GitHub API](https://docs.github.com/pt/rest);
+- [ReactJS](https://pt-br.reactjs.org/);
+- [SASS](https://sass-lang.com/);
+- [Typescript](https://www.typescriptlang.org/).
+
 ## 🚀 Como executar
 
-- Clone o repositório
-- Instale as dependências com yarn
-- Inicie o servidor com yarn start
-- Agora você pode acessar localhost:3000 do seu navegador.
+Clone o projeto e acesse a pasta do mesmo.
 
-## :memo: Licença
+```bash
+$ git clone https://github.com/rogerrm95/github-explorer.git
 
-Esse projeto está sob a licença MIT.
+$ cd github-explorer.git
+```
+
+Para iniciá-lo, siga os passos abaixo:
+
+```bash
+# Instalar as dependências
+$ yarn
+# ou
+$ npm install
+```
+
+```bash
+# Iniciar o projeto
+$ yarn dev
+# ou
+$ npm run dev
+```
+
+O app estará disponível no seu browser pelo endereço http://localhost:5173.
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através do link abaixo:
+
+[Layout Web](https://www.figma.com/design/HOCmxfrElzLpI75LdzFLia/Github-Explorer?node-id=0-1&t=EadkKeJt0njdHZhW-0) (Lembrando que você precisa ter uma conta no Figma).
