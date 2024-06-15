@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-$ git clone https://github.com/rogerrm95/github-explorer.git
+$ git clone https://github.com/sdc-jeferson/01-Ignite-Github-Explorer-Training.git
 
 $ cd github-explorer.git
 ```
