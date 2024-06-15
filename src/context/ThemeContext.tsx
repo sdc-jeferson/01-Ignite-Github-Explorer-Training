@@ -45,10 +45,7 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
   const [repositories, setRepositories] = useState<GithubRepos[]>([]);
   const [userAlreadySearcheds, setUserAlreadySearcheds] = useState<
     GithubUser[]
-  >(() => {
-    const data = localStorage.getItem(KEY_LOCAL_STORAGE);
-    return data ? JSON.parse(data) : [];
-  });
+  >([]);
 
   const navigate = useNavigate();
 
