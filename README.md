@@ -1,5 +1,3 @@
-# Github Explorer
-
 <div>
   <img src="public/github-explorer.png"/>
 </div>
